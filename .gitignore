@@ -22,3 +22,28 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+dev-debug.log
+# Dependency directories
+node_modules/
+# Environment variables
+.env
+.env.production
+.env.local
+.vscode
+# OS specific
+
+# Playwright test artifacts
+test-results/
+playwright-report/
+tests/e2e/.auth/
+tests/e2e/screenshots/
+tests/e2e/test-data/ 
+
+# Task files
+tasks.json
+tasks/ 
+
+# MCP configuration files with secrets
+.mcp-config.json
+deploy-env-vars.sh
